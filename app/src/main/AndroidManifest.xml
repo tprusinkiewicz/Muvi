@@ -15,7 +15,7 @@
 
 
     <application
-        android:name="com.tutorial.muviguide.com.muviguide.MyApplication"
+        android:name="com.muviguide.MyApplication"
         android:allowBackup="true"
         android:banner="@mipmap/ic_launcher"
         android:icon="@mipmap/ic_launcher"
@@ -23,7 +23,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.TvApp">
         <activity
-            android:name="com.tutorial.muviguide.com.muviguide.MainActivity"
+            android:name="com.muviguide.MainActivity"
             android:exported="true">
 
             <intent-filter>
@@ -34,7 +34,7 @@
         </activity>
 
         <activity
-            android:name="com.tutorial.muviguide.com.muviguide.DetailActivity"
+            android:name="com.muviguide.DetailActivity"
             android:exported="true" />
     </application>
 
